@@ -60,6 +60,41 @@
 
         <button type="submit">Enviar</button>
     </form>  
+    <h1>Contáctanos</h1>
+    <form action="enviar_formulario.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Email:</label> 
+
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label> 
+
+        <textarea id="mensaje" name="mensaje" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form> 
+    <footer id="footer">
+        <div class="contacto">
+            <h2>Donde comunicarte con nosotros:</h2>
+            <p>Telefono: 605-309-634</p>
+            <p>Email: uplmlo@hotmail.com </p>
+        </div>
+        <div class="contacto">
+            <h2>Siguenos en Instagram</h2>
+            <ul>
+                <li><a href="https://www.instagram.com/unas_by_patricia_olmedo/">Instagram</a></li>
+                
+            </ul>
+        </div>
+        <div class="img-footer" class="contacto">
+          <img src="../img-acrilicas/ACRILICAS(2).jpg" alt="uñas-acrilicas">
+         
+            
+    </footer>
+    <script src="../unas-valladolid/Controles/main.js"></script>
+
     </main>
     <footer>
         <?php
