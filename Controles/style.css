@@ -43,3 +43,21 @@ nav.menu a:hover {
     background-color: #ddd;
 }
 /* hasta aqui no funciona el puto navegador chueco */
+.container-fluid {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+    padding: 50px; /* Ajusta el padding para el espacio alrededor de la imagen y el botón */
+}
+
+.rounded-circle {
+    max-width: 200px; /* Ajusta el tamaño máximo de la imagen */
+}
+.container-fluid {
+    background-image: url('../img-semi/1Semipermanente.jpg'); /* Imagen de fondo opcional */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+
+}

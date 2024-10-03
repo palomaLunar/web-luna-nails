@@ -44,6 +44,12 @@
     </div>
   </div>
 </nav>
+
+
+<div class="container-fluid bg-dark text-light rounded mt-3">
+    <img src="http://127.0.0.1:5500/unas-valladolid/img-acrilicas/Acr%C3%ADlicas.jpg" class="rounded-circle mx-auto d-block" alt="Imagen de tu empresa">
+    <button class="btn btn-primary mt-3">Contacto</button>
+</div>
 </header>
 
 
